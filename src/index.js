@@ -41,7 +41,7 @@ class QuizBee extends Component{
     render(){
         return (
             <div className = "container">
-                <div className = "title">Quiz Sur L'oeuvre Bel Ami : Mouad Hajbaoui , Samy Benmaazooz , Reda Mohammed Yassine et Youssef Mohammadi</div>
+                <div className = "title">Quiz Test</div>
                 {this.state.questionBank.length >0 && this.state.responses <5 && this.state.questionBank.map(
                     ({question, answers, correct, questionId}) => (
                         <QuestionBox question={question} options={answers} key={questionId} selected={answer => this.computeAnswer(answer, correct)} 
