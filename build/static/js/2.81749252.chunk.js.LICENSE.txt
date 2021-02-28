@@ -1,6 +1,6 @@
 /*
 object-assign
-(c) Sindre Sorhus
+(c) MH15O
 @license MIT
 */
 
